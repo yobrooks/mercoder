@@ -1,0 +1,77 @@
+h1{
+   font-family:'Turret Road', cursive; 
+   font-size: 100px;
+   text-align:center;
+}
+
+body{
+ background-color:black;
+}
+
+a{
+    text-decoration:none;
+}
+
+.button{
+    width:240px;
+    height:80px;
+    font-family: 'Turret Road', cursive; 
+    background:none;
+    border:2px solid #7CFC00;
+    border-radius:30px;
+    color:#7CFC00;
+    padding:5px;
+    font-weight:bold;
+    font-size:30px;
+    cursor:pointer;
+    margin:50px 20px;
+    line-height:80px;
+  }
+  
+
+.button:hover{
+    background:#7CFC00;
+    cursor:pointer;
+    color:white;
+}
+
+#welcome{
+    color:#7CFC00;
+    width:500px;
+    font-size:25px;
+    font-family:'Turret Road', cursive;
+    text-align:center;
+    margin:0 auto;
+}
+
+#action{
+    display:flex;
+    justify-content: center;
+    text-align:center;
+    height:80px;
+}
+
+.gradient{
+    background-image: linear-gradient(to right, rgba(255,255,255,1), rgba(154,252,0,1));
+}
+
+.typewriter{
+    overflow: visible;
+    letter-spacing:2px;
+    border-right: 5px solid white; 
+    
+    margin: 0 auto;  
+    animation: 
+    typing 3.5s steps(40, end),
+    blink .75s step-end infinite;
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  @keyframes blink {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+  }

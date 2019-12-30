@@ -1,0 +1,22 @@
+body{
+    background:url(images/bg6.jpg) no-repeat;
+    margin:0;
+    padding:0;
+    font-family: 'Turret Road', cursive; 
+}
+
+.content
+{
+    width:550px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    color:#7CFC00;
+    font-size:22px;
+    margin-top:100px;
+}
+
+a{
+    color:white !important;
+    text-decoration:none;
+}

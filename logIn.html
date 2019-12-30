@@ -1,0 +1,107 @@
+<!--NEED TO ADD: Dropdown for Student/Teacher
+    Figure out how to go between log in and sign up
+    sign up page has: Type, Email, Password, Confirm Password, Enter Button
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Log In</title>
+        <link rel = "stylesheet" type = "text/css" href = "css/login.css">
+        <link href="https://fonts.googleapis.com/css?family=Turret+Road&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href = "css/navbar.css">
+        <script defer src="https://friconix.com/cdn/friconix.js"></script> 
+    </head>
+    <body>
+
+            <div class = "nav-header">
+                    <h1 class = "nav-name"><span style="color:white;"> Mer</span><span style="color:#7CFC00;" >Coder</span></h1>
+                    <input type = "checkbox" id = "chk">
+                    <label for="chk" class = "showMenuBtn">
+                        <i class="fi-xwsuxx-ellipsis"></i>
+                    </label>
+                    <ul class = "menu">
+                        <a href = "index.html">Home</a>
+                        <a href = "aboutpage.html">About Us</a>
+                        <a href = "logIn.html">Log In</a>
+                        <a href = "learnpage.html">Learn</a>
+                        <label for = "chk" class = "hideMenuBtn">
+                            <i class="fi-cnsuxl-times-solid"></i>
+                        </label>
+                    </ul>
+            </div>
+
+        <div class = "logInBox">
+            <form id="login-form" method="post" action="login_check.php" >
+            <!--Div fot Signing In-->
+            <div id = "logIn">
+                <h1 class="typewriter">Log In</h1>
+                <div class = "logInText">
+                    <input type = "text" name="user_id" id="user_id" placeholder="Enter Your Username">
+                </div>
+
+                <div class = "logInText">
+                    <input type = "password" name="user_pass" id="user_pass" placeholder="Enter Your Password">
+                </div>
+
+                <input class = "button" type = "submit" name = "" value = "Enter...">
+
+                <div class = "otherOptions">
+                    <a id = "link1" href="">Forgot Password?</a>
+                    <a id = "link2" href="">Not a User?</a>
+                </div>
+                </form>
+            </div>
+
+            <!--Div for Signing In-->
+            <div id = "signIn">
+            <h1 class="typewriter">Sign Up</h1>
+            <div class = "logInText">
+                <input type = "text" placeholder="Enter Your Username" name="" value="">
+            </div>
+    
+            <div class = "logInText">
+                <input type = "password" placeholder="Enter Your Password" name="" value="">
+            </div>
+
+            <div class = "logInText">
+                    <input type = "email" placeholder="Enter Your Email (Optional)" name="" value="">
+            </div>
+            <div class = "selectBox">
+                <select name="typeAccount">
+                        <option value="admin">Administrator</option>
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                </select> 
+            </div>
+            <input class = "button" type = "button" name = "" value = "Enter...">
+            <div class = "otherOptions">
+                Already Have An Account?<a id = "link3" href="">Log In</a>
+                </div>
+            </div>
+        </div>
+
+ <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+</script>
+<script>
+    //change log in to sign up
+   $(function(){
+       $('#link2').on('click', function(e){
+           $('#logIn').css("display", "none");
+           $('#signIn').css('display', 'inline');
+           e.preventDefault();
+       });
+   });
+
+//change sign up to log in
+   $(function(){
+       $('#link3').on('click', function(e){
+           $('#signIn').css("display", "none");
+           $('#logIn').css('display', 'inline');
+           e.preventDefault();
+       });
+   });
+</script>
+    </body>
+</html>

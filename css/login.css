@@ -1,0 +1,143 @@
+
+body{
+  margin:0;
+  padding: 0;
+  font-family: 'Turret Road', cursive; 
+  background:url(images/bg6.jpg) no-repeat;
+  
+  
+}
+
+a:visited{
+  color:#7CFC00;
+}
+
+.logInBox{
+  width:300px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color:#7CFC00;
+}
+
+
+.registration{
+  display:none;
+}
+.logInBox h1{
+  font-size:40px;
+  margin-bottom: 10px;
+  padding: 13px 0;
+  float:left;
+  border-bottom:5px solid #7CFC00;
+}
+
+.logInText{
+  width:100%;
+  overflow:hidden;
+  font-size:20px;
+  margin: 20px auto;
+}
+
+.logInText input{
+  background:none;
+  font-family: 'Turret Road', cursive; 
+  font-size:20px;
+  display:block;
+  padding-left:10px;
+  padding-right:10px;
+  width:80%;
+  float:left;
+  color:white;
+  margin:5px 0;
+  border:2px solid #7CFC00;
+  border-radius:30px;
+}
+
+.logInText input:focus{
+  width:90%;
+  border-color:white;
+}
+
+
+.selectBox select{
+  background: black;
+  color:white;
+  width:50%;
+  border: 2px solid #7CFC00;
+  border-radius:30px;
+  margin-bottom:10px;
+  font-size:20px;
+  font-family: 'Turret Road', cursive; 
+  text-align:center;
+  appearance:button;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+}
+
+
+.button{
+  width:50%;
+  font-family: 'Turret Road', cursive; 
+  background:none;
+  border:2px solid #7CFC00;
+  border-radius:30px;
+  color:white;
+  padding:5px;
+  font-size:20px;
+  cursor:pointer;
+  margin:12px 0;
+}
+
+.button:hover{
+  background:#7CFC00;
+}
+
+  .typewriter{
+    overflow: hidden;
+    letter-spacing:2px;
+    border-right: 5px solid white; 
+    white-space: nowrap; 
+    margin: 0 auto;  
+    animation: 
+    typing 3.5s steps(40, end),
+    blink .75s step-end infinite;
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 38% }
+  }
+
+  @keyframes blink {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+  }
+
+  .otherOptions{
+    color:#7CFC00;
+    font-size:18px;
+    text-decoration:none;
+  }
+
+  .otherOptions a:visited{
+    color:#7CFC00;
+  }
+
+  #link1{
+    float:left;
+    text-decoration: none;
+  }
+
+  a:hover{
+    border-bottom: 3px white solid;
+  }
+
+  #link2, #link3{
+    float:right;
+    text-decoration: none;
+  }
+  #signIn{
+    display:none;
+  }
