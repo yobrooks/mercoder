@@ -20,7 +20,7 @@ MerCoder is an interactive, educational website built to help anyone around the 
 
 
 ## Features
-The website uses HTML, CSS, and JavaScript. It was built using a XAMPP stack (Windows, Apache, MySQL, and PHP. 
+The website uses HTML, CSS, and JavaScript. It was built using a XAMPP stack (Windows, Apache, MySQL, and PHP). 
 
 MerCoder hosts computer science lessons that can be viewed by anyone, anywhere. The website comes with a variety of default lessons on many topics including Python, Pixlr, SVG, and Scratch. 
 
