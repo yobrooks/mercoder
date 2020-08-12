@@ -2,12 +2,21 @@
 
 ## Table of Contents
 * [Introduction](#introduction)
+* [Demo](#demo)
 * [Features](#features)
 * [Setup and Execution](#setup-and-execution)
 
 
 ## Introduction
 MerCoder is an interactive, educational website built to help anyone around the world learn computer science topics. This website was created for the semester long project portion of a Software Engineering class in Fall 2019 and will continue to be worked on throughout Spring 2020. 
+
+
+## Demo
+![MerCoder Home Page Demo](css/images/homepagerecord.gif)
+
+![MerCoder Log In Page Demo](css/images/loginrecord.gif)
+
+![MerCoder Learn Page Demo](css/images/learnrecord.gif)
 
 
 ## Features
@@ -22,9 +31,6 @@ The student profile will help them keep track of their progress on lessons and g
 The teacher profile will allow teachers to publish and modify their own lessons and also participate in answering forum questions. 
 
 Administration accounts oversee the website; teacher accounts must be validated by Admin accounts.
-
-
-![MerCoder Demo](css/images/homepagerecord.gif)
 
 
 ## Setup and Execution
