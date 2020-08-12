@@ -24,6 +24,7 @@ The teacher profile will allow teachers to publish and modify their own lessons 
 Administration accounts oversee the website; teacher accounts must be validated by Admin accounts.
 
 
+![MerCoder Demo](css/images/homepagerecord.gif)
 
 
 ## Setup and Execution
